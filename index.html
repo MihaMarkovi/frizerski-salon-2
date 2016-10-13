@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <meta name="description" content="moja prva spletna stran">
+        <title>spletna stran</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="style.css" type="text/css">
+
+        
+    </head>
+    <body> 
+              <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Hairdresser Mirko</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Kaj nudimo</a></li>
+            <li><a href="#">Naroči se</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">O nas</a></li>
+            <li><a href="#"><input type="text" name="search" placeholder="Search.."></a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <img src="http://www.fiona.si/wp-content/uploads/2011/07/frizerski-salon-04.jpg">
+      </div>
+
+    </div> <!-- /container -->
+        <hr>
+        <div id=/#kajnudimo>
+      <div class="jumbotron">
+        <h2 style="text-align:center;">Kaj nudimo</h2>
+          <div id="nega-las">
+              <div>
+                  <p><i class="glyphicon glyphicon-tint"></i> Nega las</p>
+              <hr>
+                  <img style="height:300px; width:370px;" src="http://www.frizerstvoblanka.com/wp-content/uploads/2014/07/nega-lasisca-nega-las.jpg">
+              </div>
+              <div id="barvanje">
+                  <p><i class="glyphicon glyphicon-pencil"></i> barvanje</p>
+                  <hr>
+                  <img style="height:300px; width:370px;" src="http://1nadan.si/Image/Show?iid=2013_2_27_14_10_320.jpg&quality=100&thumb=True&thumbHeight=226&thumbWidth=226&cropthumb=True">
+              </div>
+              <div id="strizenje">
+                  <p><i class="glyphicon glyphicon-scissors"></i> striženje</p>
+                  <hr>
+                  <img style="height:300px; width:370px;" src="https://povezujemo.si/media/com_jbusinessdirectory/pictures/companies/2360/frizerskestoritvemorenamarsicsp8-1465396822.jpg">
+              </div>
+          </div>
+        </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+        <h2 style="text-align:center;">Naroči se</h2>
+            
+            <div id="obrazec">
+            <div id="ime" class="form-group">
+  <label for="usr">Ime in  priimek:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+<div id="telefon" class="form-group">
+  <label for="pwd">Tel. številka:</label>
+  <input type="text" class="form-control" id="pwd">
+</div>
+<div id="termin" class="form-group">
+  <label for="usr">Termin:</label>
+  <input type="text" class="form-control" id="usr">
+</div>
+<div id="comment" class="form-group">
+  <label for="comment">Ostalo (želje glede prinčeske itd.):</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+<div class="checkbox">
+  <label><input type="checkbox" value="">Strinjam se, da je Mirko najboljši frizer.</label>
+</div>
+                <button style="margin-left: 150px;" type="button" class="btn btn-default">Pošlji</button>
+        </div>
+            <div id="tabela">
+            <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>Dan</th>
+      <th>Delovne ure</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      
+      <td>Ponedeljek</td>
+      <td>8.00-16.00</td>
+    </tr>
+    <tr>
+      <td>Torek</td>
+      <td>10.00-18.00</td>
+    </tr>
+    <tr>
+      <td>Sreda</td>
+      <td>8.00-16.00</td>
+    </tr>
+    <tr>
+      <td>Četrtek</td>
+      <td>8.00-16.00</td>
+    </tr>
+      <tr>
+          <td>Petek</td>
+          <td>12.00-20.00</td>
+      </tr>
+      <tr>
+          <td>Sobota</td>
+          <td>8.00-16.00</td>
+      </tr>
+      <tr>
+          <td>Nedelja</td>
+          <td>8.00-12.00</td>
+      </tr>
+  </tbody>
+</table>
+                <p style="font-size: 14px;">* Ob praznikih velja nedeljski urnik</p>
+            </div>
+        </div>
+        <hr>
+        <div class="jumbotron">
+            <h2 style="text-align:center;">FAQ (Pogosta vprašanja)</h2>
+          <div style="text-align:center;" class="container">
+  <!-- Trigger the modal with a button -->
+  <button style="margin-top:40px; width: 90%;" type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">Kakšen je salon in ekipa?</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Kakšen je salon in ekipa?</h4>
+        </div>
+        <div class="modal-body">
+          <p>Salon je prostoren in domač in v njem delajo prijazne in sposobne frizerke, ki oblikujejo prinčeske z občutkom in domišljijo.</p>
+            <p>Smo relativno mlad kolektiv,vedno nasmejani,prijazni. Imamo dolgoletne izkušnje z profesionalno lasno kozmetiko Schwarzkopf, v dogovoru z dolgoletnim partnerjem Hair Beauty d.o.o smo pa letos septembra začeli delati s profesionalno lasno kozmetiko Indola, katero oni distribuirajo.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+     
+            
+            <div style="margin-top: 40px; text-align: center;" class="container">
+  <!-- Trigger the modal with a button -->
+  <button style="width: 90%" type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModali">Ali sprejemate hišne ljubljenčke?</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModali" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ali sprejemate hišne ljubljenčke?</h4>
+        </div>
+        <div class="modal-body">
+          <p>Seveda. Imamo tudi frizerski salon za hišne ljubljenčke.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+            
+            
+            
+            <div style="margin-top: 40px; text-align:center;" class="container">
+  <!-- Trigger the modal with a button -->
+  <button style="width: 90%;" type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModalk">Imate kakšne nagrade s tekmovanj?</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModalk" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Imate kakšne nagrade s tekmovanj?</h4>
+        </div>
+        <div class="modal-body">
+          <p>Tekmovali smo že na več mednarodnih tekmovanjih.</p> 
+          <p>Osvojili že 16 zlatih nagrad, 9 srebrnih in 2 bronasti. Letos smo spet osvojili zlato nagrado in upamo, da jih bo še veliko.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>   
+        </div>
+        <hr>
+        <div id="bottom" style="margin-bottom:0px;">
+        <div id="kontakt">
+            <h3 style="text-align: center;">Kontakt</h3>
+            <ul>
+                <li>Frizer Mirko s.p.</li>
+                <li>Davčna št.: 324324234</li>
+                <li>Frizerska ulica 5, 1000 Ljubljana</li>
+                <li>Tel.: 01/345435346</li>
+                <li>Email: frizer.mirko@f-mirko.com</li>
+            </ul>
+            </div>
+            <img style="heigth: 150px; width: 150px; margin-left: 700px; margin-top: -140px;" src="http://srbija-nekretnine.org/oglasavanje/fotografije-2012/09/o61885-f1.jpg">
+            <div id="navigacija">
+                <h3>Navigacija</h3>
+                <ul>
+                    <li>Kaj nudimo</li>
+                    <li>Naroči se</li>
+                    <li>Pogosta vprašanja</li>
+                    <li>O nas</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

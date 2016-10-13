@@ -1,0 +1,83 @@
+#nega-las{
+    position: relative;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    background-color: ghostwhite;
+    margin-left: 30px;
+}
+
+.jumbotron{
+    font-family: Arial;
+}
+
+#barvanje{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: ghostwhite;
+    margin-left: 500px;
+    margin-top: -370px;
+}
+
+#strizenje{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: ghostwhite;
+    margin-top: -400px;
+    margin-left: 980px;
+}
+
+#ime{
+    width: 400px;
+}
+
+#telefon{
+    width: 400px;
+}
+
+#termin{
+    width: 400px;
+}
+
+#comment{
+    width: 400px;
+}
+
+#obrazec{
+    margin-left: 30px;
+}
+
+#tabela{
+    width: 400px;
+    margin-top: -350px;
+    margin-left: 980px;
+}
+
+#bottom{
+    height: 200px;
+    width: 100%;
+    background-color: ghostwhite;
+    border-style: solid;
+    border-width: thin;
+}
+
+#kontakt{
+    margin-left: 50px;
+    /*background-color: aqua;*/
+    height: 170px;
+    width: 300px;
+}
+
+ul {
+   list-style: none;
+}
+
+#navigacija{
+    /*background-color: aqua;*/
+    margin-left: 1200px;
+    height: 170px;
+    width: 300px;
+    margin-top: -210px;
+}
